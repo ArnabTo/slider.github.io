@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    
+  font-family: 'STIX Two Text', serif;
+    /* background: linear-gradient(to right, #141e30, #243b55); */
+    background: linear-gradient(to right, #232526, #414345);
+}
+h1 {
+    margin-left: 535px;
+    color: white;
+}
+.slider {
+    /* width: 100%; */
+    height: 700px;
+    /* display: flex; */
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+}
+.sliderContainer {
+    width: 100%;
+    max-width: 1095px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+.slide {
+    /* width: 183%; */
+    height: 89%;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    left: -8px;
+}
+.slide h1 {
+    /* margin-left: 300px; */
+    margin-top: -80px;
+    /* text-align: center; */
+}
+Img {
+    width: 1349px !important;
+    height: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.active{
+    opacity: 1;
+};
+
+.buttonOrder {
+    position: absolute;
+}
+
+span{
+    color:black;
+}
+.number {
+    margin-left: 370px;
+    margin-top: -121px;
+    z-index: 4;
+    position: relative;
+    background: transparent;
+}
+.number button {
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: #08040494;
+    color: white;
+    font-size: large;
+}
+.number button:hover {
+    background: #1d2225c9;
+}
+button.next {
+    margin-top: 250px;
+    width: 84px;
+     margin-left: -174px;
+}
+button.next {
+    margin-top: -21px;
+    margin-left: 1255px;
+    border: none;
+    background: transparent;
+    font-size: 40px;
+    color: white;
+}
+button.previous {
+    background: #45f5b400;
+    border: none;
+    font-size: 40px;
+    color: white;
+    margin-top: 250px;
+}
